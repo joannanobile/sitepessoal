@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section img {
+    height: 60vh;
+    margin-right: 600px;
+}
+
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline;
+        margin-left: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #07412F;
+        font-size: 18px;
+    }
+
+    .banner img {
+        height: 38vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .banner2 {
+        display: flex;
+        align-items:center;
+        text-align: center;
+        font-size: 16px;
+        font-weight:lighter;
+        text-align: justify;
+        margin-top: 40px;
+        padding: 8px 15px;
+        color: #07412F;
+    }
+
+    .banner3 {
+        background: url('images/02Prancheta\ 1\ cópia.png');
+        height: 38vh;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        align-items:flex-end;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+
+    .banner3 .botoes button{
+        height: 45px;
+        width: 160px;
+        border-radius: 10px;
+        border: 0;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .banner3 .botoes button.n-overlay{
+        color: #ffffff;
+        background-color: #CA9932;
+    }
+
+    .banner4 {
+        background: url('images/03Prancheta\ 1\ cópia\ 2.png');
+        height: 38vh;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        align-items:flex-end;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    form input,
+    form button {
+        width: 300px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 4px;
+        margin-left: 30px;
+        margin-bottom: 80px;
+    }
+    .social-links img {
+        height: 35px;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    #contact .container {
+        display: block;
+    }
+    
+    .contact-methods {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .social-links li {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social-links li a {
+        text-decoration: none;
+    
+    }
+    
+
+    form button {
+        background-color:#07412F;
+        color:aliceblue;
+        border: 8px;
+        cursor:pointer;
+}
+
+    form button:hover {
+        background-color: #127757;
+}
+
+    input:focus {
+        outline-color:#07412F;
+}
+
+    footer {
+    background-color:#07412F;
+    color:aliceblue;
+    padding:8px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
